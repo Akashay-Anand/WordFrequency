@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Word Frequency with Histogram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Demo Link
+https://celadon-basbousa-480929.netlify.app/
+
+
+## Requirments/Question
+Develop a frontend in Reactjs or Nextjs, which does the following:
+On first load, only has a Submit button
+On clicking on Submit, it will fetch the contents of https://www.terriblytinytales.com/test.txt
+Parse the content and find the frequency of occurrence of each word (some words will occur only once, some twice and so on, and some will occur N times)
+Then on the frontend, plot a histogram of the 20 most occurring words.
+Also build an "Export" button, which when clicked will download a CSV file of the histogram data.
+X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file
+
+## Libraries   
+* React Js
+* Chart.js
+
+
 
 ## Available Scripts
 
